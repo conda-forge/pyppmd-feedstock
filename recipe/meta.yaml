@@ -11,7 +11,7 @@ source:
   sha256: 3771a65699caee0f5b97cedada74a52b9ba4061bd8ad150d0115defb291c4581
 
 build:
-  number: 0
+  number: 1
   script:
     # The tarball shouldn't have egg-info--this one has paths in SOURCES.txt
     # that break the build on windows.
