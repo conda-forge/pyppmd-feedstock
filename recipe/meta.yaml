@@ -15,7 +15,7 @@ build:
   script:
     # The tarball shouldn't have egg-info--this one has paths in SOURCES.txt
     # that break the build on windows.
-    - rd src/pyppmd.egg-info  # [win]
+    - rd src\pyppmd.egg-info  # [win]
     - rm -rf src/pyppmd.egg-info  # [not win]
     - {{ PYTHON }} -m pip install . -vv
 
