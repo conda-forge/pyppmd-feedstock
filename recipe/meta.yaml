@@ -11,12 +11,8 @@ source:
   sha256: a3c95b687b45aa24c240a537326cf57166b693de0a93e1cbc789233ee21912aa
 
 build:
-  number: 0
+  number: 1
   script:
-    # The tarball shouldn't have egg-info--this one has paths in SOURCES.txt
-    # that break the build on windows.
-    - rm -rf src/pyppmd.egg-info  # [not win]
-    - del /s /q src\pyppmd.egg-info  # [win]
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
