@@ -1,5 +1,5 @@
 {% set name = "pyppmd" %}
-{% set version = "0.15.2" %}
+{% set version = "0.16.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 17195786082a473f271ad2e4bcc3bd224fcff44a53f085026ebb16a65f2c92f3
+  sha256: b3c8b8ac01b36da191277ccce897eefeffd71d79326be9161f28bd20a931f2d3
 
 build:
   number: 0
