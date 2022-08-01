@@ -42,7 +42,7 @@ about:
   home: http://github.com/miurahr/pyppmd
   summary: PPMd compression/decompression library
   license: BSD-3-Clause
-  license_file: LICENSE.rst
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
