@@ -1,6 +1,5 @@
 {% set name = "pyppmd" %}
 {% set version = "1.1.1" %}
-{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
@@ -21,12 +20,12 @@ requirements:
     - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
   host:
-    - python {{ python_min }}
+    - python >=3.9
     - setuptools >=59
     - setuptools-scm >=6.4.2
     - pip
   run:
-    - python >={{ python_min }}
+    - python >=3.9
 
 test:
   imports:
@@ -34,7 +33,7 @@ test:
   commands:
     - pip check
   requires:
-    - python {{ python_min }}
+    - python >=3.9
     - pip
 
 
