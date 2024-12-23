@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyppmd-feedstoc
 
 Home: https://codeberg.org/miurahr/pyppmd
 
-Package license: LGPL-2.1
+Package license: LGPL-2.1-only
 
 Summary: PPMd compression/decompression library
 
